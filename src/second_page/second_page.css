@@ -1,0 +1,44 @@
+body {
+  background-color: rgb(252, 244, 235);
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+p {
+  margin: 0;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.menu {
+  width: 500px;
+  margin: 0 auto;
+  background-color: black;
+}
+
+.ulMenu {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
