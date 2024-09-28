@@ -21,24 +21,77 @@ p {
   margin: 0;
 }
 
+hr {
+  margin-top: 50px;
+}
+
 .container {
   width: 1000px;
   margin: 0 auto;
 }
 
 .header {
+  display: flex;
+  justify-content: space-between;
   text-align: center;
-  margin-bottom: 30px;
+}
+
+.home {
+  margin-top: 20px;
+  position: relative;
+}
+
+.imgHome {
+  position: absolute;
+  cursor: pointer;
+}
+
+.homeButton {
+  margin-left: 30px;
+  font-size: 20px;
+  color: black;
 }
 
 .menu {
-  width: 500px;
+  width: 100%;
   margin: 0 auto;
   background-color: black;
+  border-radius: 10px;
 }
 
 .ulMenu {
+  margin: 0 auto;
+  width: 500px;
   display: flex;
   justify-content: space-between;
   padding: 20px;
+}
+
+.liMenu {
+  width: 120px;
+  padding: 5px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.liMenu:hover {
+  background-color: blue;
+  border-radius: 10px;
+}
+
+.section {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.img {
+  margin: 30px 0;
+}
+
+.ulSection {
+  text-align: start;
+}
+
+.footer {
+  margin-bottom: 100px;
 }
