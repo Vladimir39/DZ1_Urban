@@ -3,19 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/src/second_page/second_page.css" />
+    <link rel="stylesheet" href="index.css" />
     <title>Страница second_page</title>
   </head>
   <body>
     <div class="container">
-      <header class="header">
+      <header class="headerSecond">
         <div class="home">
           <img
             src="../../images/icons8-стрелки-24.png"
             alt="назад"
             class="imgHome"
           />
-          <a href="../index/index.html" class="homeButton">На главную</a>
+          <a href="./index.html" class="homeButton">На главную</a>
         </div>
 
         <h1 class="titleHeader">Страница second_page</h1>
@@ -23,22 +23,24 @@
       <main class="main">
         <nav class="menu">
           <ul class="ulMenu">
-            <li class="liMenu"><a href="#sectionHTML">HTML</a></li>
-            <li class="liMenu"><a href="#sectionCSS">CSS</a></li>
             <li class="liMenu">
-              <a href="#sectionJavaScript">JavaScript</a>
+              <a href="#sectionHTML" class="second">HTML</a>
+            </li>
+            <li class="liMenu"><a href="#sectionCSS" class="second">CSS</a></li>
+            <li class="liMenu">
+              <a href="#sectionJavaScript" class="second">JavaScript</a>
             </li>
           </ul>
         </nav>
 
-        <div class="blockInfo">
+        <div>
           <section id="sectionHTML" class="section">
             <h2 class="titleSection">HTML (HyperText Markup Language)</h2>
             <img
-              src="../../images/HTML5.png"
+              src="./images/HTML5.png"
               alt="HTML"
               width="300px"
-              class="img"
+              class="imgSecond"
             />
             <ul class="ulSection">
               <li>Отвечает за структуру содержимого веб-страницы.</li>
@@ -59,10 +61,10 @@
           <section id="sectionCSS" class="section">
             <h2 class="titleSection">CSS (Cascading Style Sheets)</h2>
             <img
-              src="../../images/CSS.png"
+              src="./images/CSS.png"
               alt="HTML"
               width="300px"
-              class="img"
+              class="imgSecond"
             />
             <ul class="ulSection">
               <li>Отвечает за внешний вид и оформление веб-страницы.</li>
@@ -85,10 +87,10 @@
           <section id="sectionJavaScript" class="section footer">
             <h2 class="titleSection">JavaScript</h2>
             <img
-              src="../../images/javascript.png"
+              src="./images/javascript.png"
               alt="HTML"
               width="300px"
-              class="img"
+              class="imgSecond"
             />
             <ul class="ulSection">
               <li>
